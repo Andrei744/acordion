@@ -5,81 +5,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="button-style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Faster+One&family=Oswald&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="loginbttn.css">
+    <link rel="stylesheet" href="adaptive.css">
+    <link rel="stylesheet" href="card.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="fontawesome-free-6.5.1-web\css\all.css">
 </head>
 
 <body>
-    <div class="accordion" id="accordionExample">
-        <div class="accordion-item">
-            <h2 class="accordion-header" id="headingOne">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
-                    aria-expanded="true" aria-controls="collapseOne">
-                    h1
-                </button>
-            </h2>
-            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
-                data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                    <strong>Lorem ipsum dolor sit.</strong> Lorem ipsum dolor sit amet consectetur.
-                </div>
-            </div>
-        </div>
+    <header>
+        <nav class="header">
+            <img src="images/logo/logoweb1.png" class="logo">
+            <ul>
+                <!--<a href="login.html"><li><button class="button" id="bttn" data-text="Awesome">
+                        <span class="actual-text">&nbsp;Login&nbsp;</span>
+                        <span aria-hidden="true" class="hover-text">&nbsp;Login&nbsp;</span>
+                    </button></li></a>-->
+                <li><a href="index.html"><button id="btn"><i class='bx bx-home'></i> Main</button></a></li>
+                <!--<li><a href="tools.html"><button id="btn"><i class='bx bx-menu'></i> Tools</button></a></li>-->
+                <!--<li><a href="#"><button id="btn"><i class='bx bx-shield-alt'></i> Useful websites</button></a></li>-->
+                <li><a href="privileges.html"><button id="btn"><i class='bx bx-cart'></i> Buy privileges</button></a></li>
+                <li><a href="https://discord.gg/gn96CPyw5h"><button id="btn"><i class="fa-brands fa-discord"></i> Discord</button></a></li>
+                <li><a href="https://t.me/SpeX1337_community"><button id="btn"><i class="fa-brands fa-telegram"></i> Telegram</button></a></li>
+                <li><a href="https://www.tiktok.com/@v1ndok"><button id="btn"><i class="fa-brands fa-tiktok"></i> TikTok</button></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container glass">
+        <div id="typedtext"></div>
     </div>
 
-    <div class="accordion" id="accordionExample">
-        <div class="accordion-item">
-            <h2 class="accordion-header" id="headingTwo">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo"
-                    aria-expanded="true" aria-controls="collapsetwo">
-                    ul
-                </button>
-            </h2>
-            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-                data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                    <strong>Lorem ipsum dolor sit.</strong> Lorem ipsum dolor sit, amet consectetur adipisicing.
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="accordion" id="accordionExample">
-        <div class="accordion-item">
-            <h2 class="accordion-header" id="headingThree">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree"
-                    aria-expanded="true" aria-controls="collapseThree">
-                    img
-                </button>
-            </h2>
-            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
-                data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                    <strong>Lorem ipsum dolor sit amet consectetur adipisicing elit.</strong> Lorem ipsum dolor sit.
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="accordion" id="accordionExample">
-        <div class="accordion-item">
-            <h2 class="accordion-header" id="headingFour">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour"
-                    aria-expanded="true" aria-controls="collapseFour">
-                    marquee
-                </button>
-            </h2>
-            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
-                data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                    <strong>Lorem ipsum dolor sit.</strong> Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.3/particles.min.js"
+        integrity="sha512-jq8sZI0I9Og0nnZ+CfJRnUzNSDKxr/5Bvha5bn7AHzTnRyxUfpUArMzfH++mwE/hb2efOo1gCAgI+1RMzf8F7g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <canvas class="background"></canvas>
+        <script type="text/javascript" src="script.js"></script>
 </body>
 
 </html>
